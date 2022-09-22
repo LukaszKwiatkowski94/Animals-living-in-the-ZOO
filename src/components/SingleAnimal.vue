@@ -2,7 +2,7 @@
 	<div class="card">
 		<img :src="animal.image_link" class="card__image" />
 		<p class="card__name">{{ animal.name }}</p>
-		<div v-show="moreInfoVisible" class="card__more-info">value</div>
+        <MoreInfoAnimal v-show="moreInfoVisible" :info="animal"/>
 		<img
 			v-show="!moreInfoVisible"
 			src="@/assets/info.svg"
@@ -19,8 +19,12 @@
 </template>
 
 <script>
+import MoreInfoAnimal from "@/components/MoreInfoAnimal.vue";
 export default {
 	name: "SingleAnimal",
+    components:{
+        MoreInfoAnimal,
+    },
 	props: {
 		animal: {
 			type: Object,
@@ -59,15 +63,6 @@ export default {
 		font-weight: bold;
 		text-transform: uppercase;
 		letter-spacing: 0.2em;
-	}
-	&__more-info {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background-color: rgba(0, 0, 0, 0.9);
-		color: #fff;
 	}
 	&__info-icon {
 		position: absolute;
