@@ -14,7 +14,7 @@
         },
         async setup() {
             let animals = ref(null);
-            let data = await fetch('https://zoo-animal-api.herokuapp.com/animals/rand/10');
+            let data = await fetch('https://zoo-animal-api.herokuapp.com/animals/rand/9');
             animals = await data.json();       
             return {animals,}
         },
