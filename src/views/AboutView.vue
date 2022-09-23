@@ -4,7 +4,7 @@
     <div class="wrapper">
       <section class="section">
         <h2 class="section__header">What is this app?</h2>
-        <p class="section__text">This app is part of a portfolio. It was based on the VueJs framework. Its home page displays information about 9 animals living in the zoo. Data for this application comes from an external API. The link is below.</p>
+        <p class="section__text">This app is part of a portfolio. It was based on the VueJs framework. Its home page displays information about 9 random animals living in the zoo. Data for this application comes from an external API. The link is below.</p>
       </section>
       <section class="section">
         <h2 class="section__header">Links</h2>
