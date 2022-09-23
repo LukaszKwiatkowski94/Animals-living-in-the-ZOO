@@ -18,15 +18,15 @@
 		</div>
 		<div class="card__more-info-row">
 			<p class="card__more-info-title">length max:</p>
-			<p class="card__more-info-value">{{ info.length_max }}</p>
+			<p class="card__more-info-value">{{ info.length_max }} ft</p>
 		</div>
 		<div class="card__more-info-row">
 			<p class="card__more-info-title">weight max:</p>
-			<p class="card__more-info-value">{{ info.weight_max }}</p>
+			<p class="card__more-info-value">{{ info.weight_max }} lb</p>
 		</div>
 		<div class="card__more-info-row">
 			<p class="card__more-info-title">lifespan:</p>
-			<p class="card__more-info-value">{{ info.lifespan }}</p>
+			<p class="card__more-info-value">{{ info.lifespan }} years</p>
 		</div>
 		<div class="card__more-info-row">
 			<p class="card__more-info-title">habitat:</p>
@@ -37,7 +37,7 @@
 			<p class="card__more-info-value">{{ info.geo_range }}</p>
 		</div>
 		<div class="card__more-info-row">
-			<p class="card__more-info-title">diet</p>
+			<p class="card__more-info-title">diet:</p>
 			<p class="card__more-info-value">{{ info.diet }}</p>
 		</div>
 	</div>
