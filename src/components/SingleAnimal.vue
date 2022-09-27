@@ -1,8 +1,8 @@
 <template>
 	<div class="card">
-		<img :src="animal.image_link" class="card__image" />
+		<img :src="animal.image_link" :alt="animal.name" class="card__image" />
 		<p class="card__name">{{ animal.name }}</p>
-        <MoreInfoAnimal v-show="moreInfoVisible" :info="animal"/>
+		<MoreInfoAnimal v-show="moreInfoVisible" :info="animal" />
 		<img
 			v-show="!moreInfoVisible"
 			src="@/assets/info.svg"
@@ -22,9 +22,9 @@
 import MoreInfoAnimal from "@/components/MoreInfoAnimal.vue";
 export default {
 	name: "SingleAnimal",
-    components:{
-        MoreInfoAnimal,
-    },
+	components: {
+		MoreInfoAnimal,
+	},
 	props: {
 		animal: {
 			type: Object,
@@ -47,7 +47,7 @@ export default {
 	border-radius: 1em;
 	box-shadow: 0 0 5px #000;
 	overflow: hidden;
-    height:50vh;
+	height: 50vh;
 
 	&__image {
 		width: 100%;
@@ -73,13 +73,13 @@ export default {
 }
 @media (min-width: 576px) {
 	.card {
-        height:70vh;
+		height: 70vh;
 		width: calc(50% - (2 * 0.8em));
 	}
 }
 @media (min-width: 992px) {
 	.card {
-        height:90vh;
+		height: 90vh;
 		width: 30%;
 	}
 }
