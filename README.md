@@ -1,6 +1,8 @@
 # Animals living in the ZOO
 Application based on VueJS. It uses the Zoo Animal API.
 
+App in reconstruction due to API shutdown
+
 ## Installation
 
 1. Clone Repo
