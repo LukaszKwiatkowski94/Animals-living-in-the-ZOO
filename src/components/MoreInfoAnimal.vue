@@ -22,11 +22,11 @@
 		</div>
 		<div class="card__more-info-row">
 			<p class="card__more-info-title">length max:</p>
-			<p class="card__more-info-value">{{ info.length_max }} ft</p>
+			<p class="card__more-info-value">{{ info.length_max }} cm</p>
 		</div>
 		<div class="card__more-info-row">
 			<p class="card__more-info-title">weight max:</p>
-			<p class="card__more-info-value">{{ info.weight_max }} lb</p>
+			<p class="card__more-info-value">{{ info.weight_max }} kg</p>
 		</div>
 		<div class="card__more-info-row">
 			<p class="card__more-info-title">lifespan:</p>
