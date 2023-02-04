@@ -14,7 +14,8 @@
         },
         async setup() {
             let animals = ref(null);
-            let data = await fetch('https://zoo-animal-api.herokuapp.com/animals/rand/9');
+            // let data = await fetch('https://zoo-animal-api.herokuapp.com/animals/rand/9'); // The old api
+            let data = await fetch('http://animals-api.portfolio-lukasz-kwiatkowski.cba.pl/api/animals-random');
             animals = await data.json();       
             return {animals,}
         },

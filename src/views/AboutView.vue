@@ -9,7 +9,8 @@
       <section class="section">
         <h2 class="section__header">Links</h2>
         <ul class="section__list">
-          <li class="section__list-item"><a href="https://zoo-animal-api.herokuapp.com/" class="section__link" target=”_blank”>Zoo Animal API</a></li>
+          <!--<li class="section__list-item"><a href="https://zoo-animal-api.herokuapp.com/" class="section__link" target=”_blank”>Zoo Animal API</a></li>-->
+          <li class="section__list-item"><a href="http://animals-api.portfolio-lukasz-kwiatkowski.cba.pl/" class="section__link" target=”_blank”>Animals API - My Project</a></li>
           <li class="section__list-item"><a href="https://github.com/LukaszKwiatkowski94/Animals-living-in-the-ZOO" class="section__link" target=”_blank”>Application code on GitHub</a></li>
         </ul>
       </section>

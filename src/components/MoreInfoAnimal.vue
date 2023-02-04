@@ -9,6 +9,10 @@
 			<p class="card__more-info-value">{{ info.latin_name }}</p>
 		</div>
 		<div class="card__more-info-row">
+			<p class="card__more-info-title">polish name:</p>
+			<p class="card__more-info-value">{{ info.polish_name }}</p>
+		</div>
+		<div class="card__more-info-row">
 			<p class="card__more-info-title">animal type:</p>
 			<p class="card__more-info-value">{{ info.animal_type }}</p>
 		</div>
