@@ -1,5 +1,5 @@
 # Animals living in the ZOO
-Application based on VueJS. It uses the Zoo Animal API.
+Application based on VueJS. It uses the Animal API.
 
 App in reconstruction due to API shutdown
 
