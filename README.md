@@ -1,6 +1,8 @@
 # Animals living in the ZOO
 Application based on VueJS. It uses the Animal API.
 
+[Demo this app](http://animals.portfolio-lukasz-kwiatkowski.cba.pl "Demo this app")
+
 ## Installation
 
 1. Clone Repo
