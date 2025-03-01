@@ -29,11 +29,14 @@ To run the application with Docker, follow these steps:
    docker-compose up --build
    ```
 
+The app is accessible
+```
 [http://localhost:8080](http://localhost:8080)
 
-````
+```
 
 ### Running locally without Docker
+
 If you prefer to run the application without Docker:
 
 1. **Install dependencies**
