@@ -31,7 +31,7 @@ To run the application with Docker, follow these steps:
 
 The app is accessible
 ```
-[http://localhost:8080](http://localhost:8080)
+http://localhost:8080
 
 ```
 
@@ -40,9 +40,9 @@ The app is accessible
 If you prefer to run the application without Docker:
 
 1. **Install dependencies**
-   ```sh
+```sh
    npm install
-````
+```
 
 2. **Run the application**
    ```sh
