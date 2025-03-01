@@ -32,7 +32,6 @@ To run the application with Docker, follow these steps:
 The app is accessible
 ```
 http://localhost:8080
-
 ```
 
 ### Running locally without Docker
