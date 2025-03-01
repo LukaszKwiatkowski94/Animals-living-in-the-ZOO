@@ -13,6 +13,9 @@ export default {
 		NavBar,
 		FooterBar,
 	},
+	created() {
+		document.title = "Animals living in the ZOO";
+	}
 };
 </script>
 
