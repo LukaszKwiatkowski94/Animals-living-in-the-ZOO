@@ -11,16 +11,40 @@ For animal enthusiasts, zoology aficionados, and individuals seeking to broaden 
 You can see a working version of the application on this [Demo this app](https://animals.kwiatkowskilukasz.pl/ "Demo this app").
 
 ## How to run the app
-Download the application source code from the GitHub repository.
-```
-git clone https://github.com/LukaszKwiatkowski94/Animals-living-in-the-ZOO.git
-```
 
-Install dependencies 
-```npm install```
+### Using Docker
 
-Run the application 
-```npm run serve```
+To run the application with Docker, follow these steps:
+
+1. **Clone the repository**
+
+   ```sh
+   git clone https://github.com/LukaszKwiatkowski94/Animals-living-in-the-ZOO.git
+   cd animals-living-in-the-ZOO
+   ```
+
+2. **Build and run the container**
+
+   ```sh
+   docker-compose up --build
+   ```
+
+[http://localhost:8080](http://localhost:8080)
+
+````
+
+### Running locally without Docker
+If you prefer to run the application without Docker:
+
+1. **Install dependencies**
+   ```sh
+   npm install
+````
+
+2. **Run the application**
+   ```sh
+   npm run serve
+   ```
 
 ## Summary
 The "Animals living in the ZOO" project is an interactive web application based on VueJS technology. It utilizes the VueJS framework for dynamic interface rendering and fetching animal data from a JSON file. The application uses the SASS preprocessor for interface styling, ensuring an aesthetic appearance. A significant element of the project is an algorithm that randomly selects and presents information about nine animals in each run, ensuring a unique user experience.
