@@ -41,13 +41,13 @@ If you prefer to run the application without Docker:
 
 1. **Install dependencies**
 ```sh
-   npm install
+npm install
 ```
 
 2. **Run the application**
-   ```sh
-   npm run serve
-   ```
+```sh
+npm run serve
+```
 
 ## Summary
 The "Animals living in the ZOO" project is an interactive web application based on VueJS technology. It utilizes the VueJS framework for dynamic interface rendering and fetching animal data from a JSON file. The application uses the SASS preprocessor for interface styling, ensuring an aesthetic appearance. A significant element of the project is an algorithm that randomly selects and presents information about nine animals in each run, ensuring a unique user experience.
